@@ -1,0 +1,27 @@
+<div class="page">
+  <div class="header">splunk <span>Query Builder POC</span></div>
+  <div class="searchbar">
+    <h1>New Search</h1>
+    <div class="search-control">
+      <div class="search-input-wrapper">
+        <input
+          type="text" id="search-input" placeholder="Search query results"
+          aria-label="Generated search query results">
+      </div>
+      <button
+        id="copy-button" title="Copy search query to Clipboard"
+        >Copy</button>
+    </div>
+  </div>
+  <div class="instructions">
+    <h2>Welcome to Splunk Query Builder!</h2>
+    <p>This is a simple app to help you generate search queries from a configuration file:
+    <ol>
+      <li>Configure your query predicates,</li>
+      <li>Generate your search query,</li>
+      <li>Copy your search to clipboard!</li>
+    </ol>
+  </div>
+</div>
+<div id="app"></div>
+</div>
